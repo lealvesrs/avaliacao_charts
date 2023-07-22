@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,14 +12,14 @@
 
 <body>
     <h2>ChartJS</h2>
-        <pre>Número de modelos de roupas DISTINTAS presentes em cada categoria</pre>
-   
-        <div id="d1">
-        
+    <pre>Número de modelos de roupas DISTINTAS presentes em cada categoria</pre>
+
+    <div id="d1">
+
         <canvas id="meuGrafico"></canvas>
     </div>
 
-<a href="index.html"> ← Voltar pro menu</a>
+    <a href="index.html"> ← Voltar pro menu</a>
 
 </body>
 
@@ -40,7 +41,14 @@
         height: 70%;
 
     }
-    p{
-        font-size: 12px;
+
+    pre {
+        font-size: 1vw;
+    }
+
+    @media (max-width: 500px) {
+        pre {
+            font-size: 2vw;
+        }
     }
 </style>
