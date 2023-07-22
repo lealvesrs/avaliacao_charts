@@ -1,28 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Gráfico com ChartJS</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Letícia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h2>ChartJS</h2>
-        <p>Número de modelos de roupas DISTINTAS presentes em cada categoria</p>
-   
-        <div id="d1">
-        
-        <canvas id="meuGrafico"></canvas>
-    </div>
+    <h2>Letícia Alves de Oliveira</h2>
+    <h6>Graduanda em Sistemas de Informações</h6>
+    <h6>leticia.alves2@aluno.ifsp.edu.br</h6>
 
+   <div class="container">
+    <div class="d"><a href="chartjs.html" target="_blank">Exercício 6 - ChartJS</a></div>
 
+    <div class="d"><a href="d3.html" target="_blank"> Exercício 7 - D3.js</a></div>
+   </div>
 
 </body>
 
 </html>
 
+
 <style>
+    
     body {
         margin: 0;
         height: 100vh;
@@ -30,14 +35,28 @@
         justify-content: center;
         align-items: center;
         flex-flow: column;
+        background-color: cornsilk;
+        font-family: 'Montserrat';
     }
 
-    #d1 {
-        width: 70%;
-        height: 70%;
-
+    .container{
+        display: flex;
+        flex-wrap: wrap;
     }
-    p{
-        font-size: 12px;
+
+    .d{
+        background-color: coral;
+        height: 100px;
+        width: 120px;
+        border-radius: 10px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        margin: 20px;
+        box-shadow: 5px 5px teal;
+    }
+
+    h6{
+        margin: 0;
     }
 </style>
