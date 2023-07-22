@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    carregarArquiv();
+    carregarArquivos();
 });
 
 
 let data = [];
 
-async function carregarArquiv() {
+async function carregarArquivos() {
     const mainCategory = [];
     const order = [];
 

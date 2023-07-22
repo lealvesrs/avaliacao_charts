@@ -1,9 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    carregarArquiv();
+    carregarArquivos();
 });
 
-async function carregarArquiv() {
+async function carregarArquivos() {
     const mainCategory = [];
     const order = [];
 
@@ -67,6 +67,8 @@ async function filterData(mainCategory, order) {
     ordemAlfabetica(arraySemDuplicados, mainCategory);
 }
 
+
+
 function ordemAlfabetica(data, mainCategory) {
     let eixo_x = [];
     let eixo_y = {};
@@ -85,6 +87,7 @@ function ordemAlfabetica(data, mainCategory) {
 
     criarGrafico(eixo_x, eixo_y);
 }
+
 
 function criarGrafico(x, y) {
     const ctx = document.getElementById('meuGrafico');
